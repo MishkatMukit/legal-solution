@@ -14,6 +14,8 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/481fde1f12.js" crossorigin="anonymous"></script>
     <style>
+        * {}
+
         .font-poppins {
             font-family: "Poppins", sans-serif;
         }
@@ -103,7 +105,7 @@
     </header>
     <main>
         <!-- legal practice areaa -->
-        <section class="container px-4 md:px-18 mb-20 mt-28">
+        <section class="container px-2 md:px-18 mb-20 mt-28">
             <!-- legal practice top content -->
             <div class="mx-auto text-center max-w-3xl mb-16">
                 <h2 class="font-eb-garamond font-extrabold text-3xl md:text-[40px] text-dark2 mb-6">The Legal Practice
@@ -294,7 +296,7 @@
             </div>
         </section>
         <!-- frequently asked questions are here -->
-        <section class="container px-4 md:px-18 mb-20 mt-28">
+        <section class="container px-2 md:px-18 mb-20 mt-28">
             <div class="mx-auto text-center max-w-3xl mb-16">
                 <h2 class="font-eb-garamond font-extrabold text-3xl md:text-[40px] text-dark2 mb-6">Frequently Asked Any
                     Questions
@@ -343,7 +345,94 @@
                 </div>
             </div>
         </section>
+        <!-- contact with us starts here -->
+        <section class="container px-2 md:px-18 mb-20 mt-28">
+            <div class="mx-auto text-center max-w-3xl mb-16">
+                <h2 class="font-eb-garamond font-extrabold text-3xl md:text-[40px] text-dark2 mb-6">Contact With Us
+                </h2>
+                <p class="text-dark3">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!--root  container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- form cards container -->
+            <div class="grid md:grid-cols-2  gap-5 lg:gap-1  lg:max-w-full  max-w-80 mx-auto
+            ">
+                <!-- card 1-->
+                <div
+                    class="bg-dark7 text-center space-y-3 flex flex-col justify-center items-center p-14 shadow-lg rounded-md md:rounded-none">
+                    <img src="images/location.png" alt="">
+                    <div class="space-y-2">
+                        <h2 class="font-extrabold text-2xl font-eb-garamond text-dark2">Address</h2>
+                        <p class="text-dark3">A108 Adam Street,<br>
+                            New York, NY 535022</p>
 
+                    </div>
+                </div>
+                <!-- card -2 -->
+                <div
+                    class="bg-dark7 text-center space-y-3 flex flex-col justify-center items-center p-14 shadow-lg rounded-md md:rounded-none">
+                    <img src="images/call.png" alt="">
+                    <div class="space-y-2">
+                        <h2 class="font-extrabold text-2xl font-eb-garamond text-dark2">Call Us</h2>
+                        <p class="text-dark3">+88 01750 00 00 00 <br>
+                            +88 01750 00 00 00</p>
+
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div
+                    class="bg-dark7 text-center space-y-3 flex flex-col justify-center items-center p-14 shadow-lg rounded-md md:rounded-none">
+                    <img src="images/email.png" alt="">
+                    <div class="space-y-2">
+                        <h2 class="font-extrabold text-2xl font-eb-garamond text-dark2">Email Us</h2>
+                        <p class="text-dark3">info@gmail.com <br>
+                            info@gmail.com</p>
+
+                    </div>
+                </div>
+                <!-- card -4 -->
+                <div
+                    class="bg-dark7 text-center space-y-3 flex flex-col justify-center items-center p-14 shadow-lg rounded-md md:rounded-none">
+                    <img src="images/time.png" alt="">
+                    <div class="space-y-2">
+                        <h2 class="font-extrabold text-2xl font-eb-garamond text-dark2">Working Hours</h2>
+                        <p class="text-dark3">Mon-Fri: 9AM to 5PM
+                            Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+            </div>
+            <!-- form input container -->
+            <div class="flex flex-col gap-8 lg:max-w-full px-4 ">
+                <div>
+                    <input type="text" placeholder="Your Name" class="input input-md py-8 bg-dark7 border-none w-full" />
+
+
+
+                </div>
+                <div>
+                    <input type="email" placeholder="Your Email" class="input input-md py-8 bg-dark7 border-none w-full" />
+                </div>
+                <div>
+                    <input type="text" class="input input-md py-8 bg-dark7 border-none w-full" placeholder="Select Subject"
+                        list="browsers" />
+                        <datalist id="browsers">
+                        <option value="Business Law"></option>
+                        <option value="Criminal Law"></option>
+                        <option value="Child Support"></option>
+                        <option value="Education Law"></option>
+                        <option value="Divorce Law"></option>
+                        <option value="Tax Law"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <textarea rows="8" class="textarea textarea-ghost  bg-dark7 w-full" placeholder="Your Message"></textarea>
+                </div>
+                <button class="btn bg-primary text-white py-8">Send Message</button>
+
+            </div>
+            </div>
+        </section>
         <footer class="footer sm:footer-horizontal md:justify-items-center bg-dark1 text-neutral-content p-10 mx-auto">
             <nav class=" ">
                 <img src="images/logo.png" alt="">
@@ -383,7 +472,8 @@
                         Subscribe for our latest & Articles. We Won’t Give You Spam Mails
                     </p>
                     <div class="join">
-                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item text-dark2" />
+                        <input type="text" placeholder="username@site.com"
+                            class="input input-bordered join-item text-dark2" />
                         <button class="btn btn-primary join-item"><i class="fa-regular fa-paper-plane"></i></button>
                     </div>
                 </fieldset>
